@@ -1,1 +1,2 @@
-This is Mewbie-ai's First Git Project!
+mini project (Odin)
+mimic the google search bar
