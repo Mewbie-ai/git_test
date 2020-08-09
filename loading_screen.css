@@ -1,0 +1,31 @@
+
+.ball{
+    animation-name: rotation;
+    animation-duration: 2s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  
+    left:calc(50% - 50px);
+    top:calc(50% - 50px);
+    display: inline-block;
+    background-color: blueviolet;
+    animation-iteration-count:infinite;
+  animation-timing-function: linear;}
+  @keyframes rotation{
+      0%{transform: rotate(0deg);
+    left:calc(50% - 50px);
+    top:calc(50% - 50px);}
+    20%{
+      top:0;
+      left:0;
+      background-color: brown;}
+    40%{top:100vh;left:0;
+    background-color:royalblue;border-radius:50%}
+    60%{top:100vh;left:100vw;
+    }
+    80%{top:0;left:100vw;}
+      100%{transform:rotate(-360deg);
+    left:calc(50% - 50px);
+    top:calc(50% - 50px);}
+  }
